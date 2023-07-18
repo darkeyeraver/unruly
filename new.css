@@ -1,0 +1,241 @@
+body {
+    background-color:grey ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    width: 35px;
+    border-radius: 80px;
+}
+
+.logo-2{
+    width: 400px;
+    
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 5px 20px;
+}
+
+.header{
+    background-color: beige;
+    border-radius: 20px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;    
+}
+
+nav ul li a{
+    color: rgb(18, 28, 38);
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    height: 4px;
+    width: 0;
+    background: rgb(19, 19, 19);
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+    position: absolute;
+}
+
+nav ul li a:hover::after{
+    width: 90%;
+}
+
+.home h1 {
+    transition: 2.5s;
+    margin-right: 80%;
+    padding-left: 56px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-weight:bolder;
+    font-size: 400%;  
+    padding-top: 9%;  
+    color: rgb(36, 24, 24);
+}
+
+.home p {
+    max-width: 45%;
+    padding-left: 46px;
+    font-size: larger;
+}
+
+
+.image {
+    transition: 2.6s;
+    position: absolute;
+    margin-left: 65%;
+    padding-top: 16%;
+    z-index: -1;
+}
+
+.about h1 {
+    padding-left:0 ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.about  {
+    font-size: larger;
+    padding-left:53%;
+    padding-top: 15%;
+    max-width: 40%;
+    height: 50vh;
+}
+
+.img-2 {
+    position: absolute;
+    padding-left: 44px;
+    padding-top: 15%;
+    z-index: -1;
+
+}
+
+.services h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 4px;
+}
+
+
+.services  {
+    height: 500px;
+    max-width: 42%;
+    padding-left: 4%;
+    padding-top: 10%;  
+    font-size: larger;
+}
+
+
+.image5 {
+    position: absolute;
+    padding-left: 60%;
+    width: 40px;
+    padding-top: 3%;
+    z-index: -1;
+}
+#contact{
+    margin-left: 2%;
+    width: 100%;
+}
+.contact {
+    max-width: 90%;
+
+    padding-bottom: 1%;
+    padding-top: 2.5%;
+
+}
+
+.contact h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 55%;
+    margin-top: -20px;
+}
+
+.form text {
+    display: flex;
+    padding-bottom: 100px
+}
+
+
+form input{
+    width: 40%;
+    height: 35px;
+    outline: none;
+    padding: 10;
+    margin: 10px 0;
+    color: black;
+    border: 6px;
+    font-size: 10px; 
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 1%;  
+}
+
+form textarea{
+    width: 81%;
+    height: 120px;
+    font-size: 75%;
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 2%;
+}
+
+
+form{
+    padding-left: 30%;
+    height: 90%;
+    opacity: 0.6;
+}
+
+.btn{
+    padding: 14px 50px;
+    font-size: 12px;
+    margin-top: 2px;
+    border: 2px solid black;
+    margin-left: 32% ;
+    background-color: white;
+    padding-left: px;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+    padding-left: 25%;
+}
+
+.col-1{
+    padding-left: 30px;
+}
+.col-2{
+    padding-right: 13%;
+}
+
+.col-3{
+    padding-right: 20px;
+}
+
+.foot-content{
+    background-color: beige;
+}
+
+.foot-contact{
+    font-size: small;
+    justify-content:space-around;
+    display: flex;
+    height: 100%
+
+}
+
+.foot-contact h2 {
+    margin-bottom: -10px;
+}
+
+.foot-contact p {
+    padding-bottom: -90px
+}
+.icon{
+    padding-left: 44.6%;
+}
+
+.icon a {
+    padding-left: 10px;
+}
+
+footer{
+    margin-bottom: -10%;
+    padding-left: 44%;
+    background-color: rgb(215, 215, 195);
+    font-size: 15px;
+}
